@@ -41,7 +41,7 @@ function App() {
     return (
         <div>
             <h1 style={{ color: "#ffffff", textAlign: "center" }}>
-                Expense Tracher
+                Expense Tracker
             </h1>
             <NewExpense onAddedExpense={addExpenseHandler} />
             <Expenses items={expenses} />
